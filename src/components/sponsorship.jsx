@@ -65,7 +65,7 @@ export default function Component() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-[#0070f3]">Zack's Content</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-[#0070f3]">Zack&apos;s Content</h2>
                 <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                   Zack Proser creates a variety of engaging content across multiple platforms, including cloud-native
                   development tutorials, infrastructure as code guides, and machine learning project walkthroughs. His
@@ -118,9 +118,9 @@ export default function Component() {
         <section className="w-full py-12 md:py-24 lg:py-32">
           <div className="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight text-[#0070f3]">Zack's Audience</h2>
+              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight text-[#0070f3]">Zack&apos;s Audience</h2>
               <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Zack's content resonates with a diverse audience of tech-savvy individuals, including software
+                Zack&apos;s content resonates with a diverse audience of tech-savvy individuals, including software
                 engineers, DevOps professionals, and data scientists. His audience is primarily male, with a strong
                 presence in urban areas and a high engagement rate across social media platforms.
               </p>
