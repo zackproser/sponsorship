@@ -1,31 +1,25 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/tiAclU0OGcO
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
-import Link from "next/link"
+import Link from 'next/link'
+import Image from 'next/image'
 import { CardTitle, CardDescription, CardHeader, CardContent, Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
+
+import speech from '@/images/a16z-2.webp'
 
 export default function Component() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
       <header className="px-4 lg:px-6 h-14 flex items-center">
-        <Link className="flex items-center justify-center" href="#">
-          <MountainIcon className="h-6 w-8 text-[#0070f3]" />
-          <span className="sr-only">Acme Creator</span>
-        </Link>
-        <nav className="ml-auto flex gap-4 sm:gap-6">
-          <Link className="text-sm font-medium hover:underline underline-offset-4 text-[#0070f3]" href="#">
+       <nav className="ml-auto flex gap-4 sm:gap-6">
+          <Link className="text-sm font-medium hover:underline underline-offset-4 text-[#0070f3]" href="https://zackproser.com">
             About
           </Link>
-          <Link className="text-sm font-medium hover:underline underline-offset-4 text-[#0070f3]" href="#">
-            Content
+          <Link className="text-sm font-medium hover:underline underline-offset-4 text-[#0070f3]" href="https://zackproser.com/blog">
+            Writing
           </Link>
-          <Link className="text-sm font-medium hover:underline underline-offset-4 text-[#0070f3]" href="#">
-            Sponsorship
+          <Link className="text-sm font-medium hover:underline underline-offset-4 text-[#0070f3]" href="https://zackproser.com/videos">
+            Videos
           </Link>
-          <Link className="text-sm font-medium hover:underline underline-offset-4 text-[#0070f3]" href="#">
+          <Link className="text-sm font-medium hover:underline underline-offset-4 text-[#0070f3]" href="https://zackproser.com/contact">
             Contact
           </Link>
         </nav>
@@ -41,7 +35,10 @@ export default function Component() {
                   </h1>
                   <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
                     Zack Proser is a staff-level developer and open-source maintainer with a specialization in
-                    cloud-native development, infrastructure as code and machine learning. He has a growing audience
+                    cloud-native development, infrastructure as code and machine learning. 
+                  </p>
+                  <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
+                    He has a growing audience
                     across multiple platforms and offers exciting sponsorship opportunities for brands looking to
                     connect with his engaged community.
                   </p>
@@ -55,14 +52,13 @@ export default function Component() {
                   </Link>
                 </div>
               </div>
-              <img
-                alt="Zack Proser"
+              <Image 
                 className="mx-auto aspect-square overflow-hidden rounded-xl object-cover sm:w-full lg:order-last"
-                height="550"
-                src="/placeholder.svg"
-                width="550"
+                src={speech} 
+                alt="Me speaking about Gen AI in production at Andreesen Horowitz" 
+                width={500}
               />
-            </div>
+              </div>
           </div>
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
@@ -133,27 +129,27 @@ export default function Component() {
               <div className="grid grid-cols-3 gap-4 text-center">
                 <div className="flex flex-col items-center">
                   <MailIcon className="h-8 w-8 text-[#0070f3]" />
-                  <span className="mt-2 font-medium">10K</span>
+                  <span className="mt-2 font-medium">450</span>
                   <span className="text-sm text-gray-500 dark:text-gray-400">Newsletter</span>
                 </div>
                 <div className="flex flex-col items-center">
                   <LinkedinIcon className="h-8 w-8 text-[#0070f3]" />
-                  <span className="mt-2 font-medium">20K</span>
+                  <span className="mt-2 font-medium">750</span>
                   <span className="text-sm text-gray-500 dark:text-gray-400">LinkedIn</span>
                 </div>
                 <div className="flex flex-col items-center">
                   <TwitterIcon className="h-8 w-8 text-[#0070f3]" />
-                  <span className="mt-2 font-medium">50K</span>
+                  <span className="mt-2 font-medium">350</span>
                   <span className="text-sm text-gray-500 dark:text-gray-400">Twitter</span>
                 </div>
                 <div className="flex flex-col items-center">
                   <YoutubeIcon className="h-8 w-8 text-[#0070f3]" />
-                  <span className="mt-2 font-medium">100K</span>
+                  <span className="mt-2 font-medium">165</span>
                   <span className="text-sm text-gray-500 dark:text-gray-400">YouTube</span>
                 </div>
                 <div className="flex flex-col items-center">
                   <GithubIcon className="h-8 w-8 text-[#0070f3]" />
-                  <span className="mt-2 font-medium">5K</span>
+                  <span className="mt-2 font-medium">142</span>
                   <span className="text-sm text-gray-500 dark:text-gray-400">GitHub</span>
                 </div>
               </div>
