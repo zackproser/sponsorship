@@ -32,7 +32,7 @@ export default function Component() {
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-[#0070f3]">
-                    Zack Proser
+                    Sponsor Zack Proser
                   </h1>
                   <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
                     Zack Proser is a staff-level developer and open-source maintainer with a specialization in
@@ -44,20 +44,11 @@ export default function Component() {
                     connect with his engaged community.
                   </p>
                 </div>
-                <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                  <Link
-                    className="inline-flex h-10 items-center justify-center rounded-md bg-[#0070f3] px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-[#0070f3]/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#0070f3] disabled:pointer-events-none disabled:opacity-50 dark:bg-[#0070f3] dark:text-gray-900 dark:hover:bg-[#0070f3]/90 dark:focus-visible:ring-[#0070f3]"
-                    href="#"
-                  >
-                    Learn More
-                  </Link>
-                </div>
               </div>
               <Image 
                 className="mx-auto aspect-square overflow-hidden rounded-xl object-cover sm:w-full lg:order-last"
                 src={speech} 
                 alt="Me speaking about Gen AI in production at Andreesen Horowitz" 
-                width={500}
               />
               </div>
           </div>
@@ -98,7 +89,7 @@ export default function Component() {
                       <h3 className="text-xl font-bold">Infrastructure as Code</h3>
                       <p className="text-gray-500 dark:text-gray-400">
                         Zack showcases his skills in automating infrastructure provisioning and management using tools
-                        like Terraform, Ansible, and CloudFormation.
+                        like Terraform, Pulumi, and CloudFormation.
                       </p>
                     </div>
                   </li>
@@ -107,7 +98,7 @@ export default function Component() {
                       <h3 className="text-xl font-bold">Machine Learning Projects</h3>
                       <p className="text-gray-500 dark:text-gray-400">
                         Zack shares his experience in building and deploying machine learning models, including
-                        tutorials on data preprocessing, model training, and model serving.
+                        tutorials on data preprocessing, model training, model serving and building distributed GenAI systems that are production-ready.
                       </p>
                     </div>
                   </li>
@@ -190,8 +181,8 @@ export default function Component() {
                     </li>
                   </ul>
                   <div className="mt-auto">
-                    <Button className="w-full bg-[#0070f3] hover:bg-[#0070f3]/90 text-gray-50 dark:bg-[#0070f3] dark:text-gray-900 dark:hover:bg-[#0070f3]/90">
-                      $1500
+                    <Button className="w-full bg-[#0070f3] hover:bg-[#0070f3]/90 text-gray-50 dark:bg-[#0070f3] dark:text-gray-900 dark:hover:bg-[#0070f3]/90" asChild>
+                      <Link href={'https://buy.stripe.com/bIYfZtaQ24HbdkQaEE'}>$1500</Link>
                     </Button>
                   </div>
                 </CardContent>
@@ -221,8 +212,8 @@ export default function Component() {
                     </li>
                   </ul>
                   <div className="mt-auto">
-                    <Button className="w-full bg-[#0070f3] hover:bg-[#0070f3]/90 text-gray-50 dark:bg-[#0070f3] dark:text-gray-900 dark:hover:bg-[#0070f3]/90">
-                      $2,800
+                    <Button className="w-full bg-[#0070f3] hover:bg-[#0070f3]/90 text-gray-50 dark:bg-[#0070f3] dark:text-gray-900 dark:hover:bg-[#0070f3]/90" asChild>
+                      <Link href={"https://buy.stripe.com/4gw4gL2jw6PjfsY3cd"}>$2,800</Link>
                     </Button>
                   </div>
                 </CardContent>
@@ -256,6 +247,47 @@ export default function Component() {
                     </li>
                   </ul>
                   <div className="mt-auto" />
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </section>
+        <section className="w-full py-12 md:py-24 lg:py-32 border-t">
+          <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
+            <div className="space-y-3">
+              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight text-[#0070f3]">
+                Other Services
+              </h2>
+              <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                Get honest, actionable feedback on your product, architecture or direction from a staff-level developer.
+              </p>
+            </div>
+            <div className="grid w-full max-w-4xl grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              <Card className="flex flex-col">
+                <CardHeader>
+                  <CardTitle className="text-[#0070f3]">Product review and feedback</CardTitle>
+                  <CardDescription>Ideal for small businesses and startups.</CardDescription>
+                </CardHeader>
+                <CardContent className="flex flex-col justify-between flex-1">
+                  <ul className="space-y-2">
+                    <li>
+                      <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#0070f3]" />
+                      Detailed analysis of your product or tool's functionality and user experience. 
+                    </li>
+                    <li>
+                      <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#0070f3]" />
+                      Detailed recordings, transcriptions, step by step 
+                    </li>
+                    <li>
+                      <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#0070f3]" />
+                      Discussion, feedback, and advice in follow up meetings with your team 
+                    </li>
+                  </ul>
+                  <div className="mt-auto">
+                    <Button className="w-full bg-[#0070f3] hover:bg-[#0070f3]/90 text-gray-50 dark:bg-[#0070f3] dark:text-gray-900 dark:hover:bg-[#0070f3]/90" asChild>
+                      <Link href={'https://buy.stripe.com/aEU6oTgamgpTbcI8wy'}>$5000</Link>
+                    </Button>
+                  </div>
                 </CardContent>
               </Card>
             </div>
