@@ -4,6 +4,7 @@ import { CardTitle, CardDescription, CardHeader, CardContent, Card } from "@/com
 import { Button } from "@/components/ui/button"
 
 import speech from '@/images/a16z-2.webp'
+import myContent from '@/images/my-content.webp'
 
 export default function Component() {
   return (
@@ -74,12 +75,12 @@ export default function Component() {
               </div>
             </div>
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
-              <img
-                alt="Content"
+              <Image
+                alt="My content"
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
-                height="310"
-                src="/placeholder.svg"
-                width="550"
+                height={"310"}
+                src={myContent}
+                width={"550"}
               />
               <div className="flex flex-col justify-center space-y-4">
                 <ul className="grid gap-6">
@@ -190,7 +191,7 @@ export default function Component() {
                   </ul>
                   <div className="mt-auto">
                     <Button className="w-full bg-[#0070f3] hover:bg-[#0070f3]/90 text-gray-50 dark:bg-[#0070f3] dark:text-gray-900 dark:hover:bg-[#0070f3]/90">
-                      $500
+                      $1500
                     </Button>
                   </div>
                 </CardContent>
@@ -221,7 +222,7 @@ export default function Component() {
                   </ul>
                   <div className="mt-auto">
                     <Button className="w-full bg-[#0070f3] hover:bg-[#0070f3]/90 text-gray-50 dark:bg-[#0070f3] dark:text-gray-900 dark:hover:bg-[#0070f3]/90">
-                      $1,000
+                      $2,800
                     </Button>
                   </div>
                 </CardContent>
