@@ -272,7 +272,7 @@ export default function Component() {
                   <ul className="space-y-2">
                     <li>
                       <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#0070f3]" />
-                      Detailed analysis of your product or tool's functionality and user experience. 
+                      Detailed analysis of your product or tool&apos;s functionality and user experience. 
                     </li>
                     <li>
                       <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#0070f3]" />
