@@ -2,7 +2,7 @@ import { CheckIcon } from '@heroicons/react/20/solid'
 
 const tiers = [
   {
-    name: 'Starter',
+    name: 'Expand your reach',
     id: 'tier-bronze',
     href: 'https://buy.stripe.com/bIYfZtaQ24HbdkQaEE',
     price: '$1,500',
@@ -23,14 +23,14 @@ const tiers = [
     ],
   },
   {
-    name: 'Product analysis / Deep DevEx exploration',
+    name: 'Product analysis / Feedback',
     id: 'tier-gold',
     href: 'https://buy.stripe.com/aEU6oTgamgpTbcI8wy',
     price: '$5,000',
     description: 'I am an expert in AI-assisted develeoper tooling',
     features: [
       'Detailed feedback and analysis',
-      'Video recordings of my experience using your tool',
+      'Video recordings of my experience',
       'Technical recommendations',
       'Dedicated review blog Post',
     ],
@@ -65,7 +65,6 @@ export default function Pricing() {
                   {tier.name}
                 </h3>
               </div>
-              <p className="mt-4 text-sm leading-6 text-gray-600">{tier.description}</p>
               <p className="mt-6 text-4xl font-bold tracking-tight text-gray-900">{tier.price}</p>
               <a
                 href={tier.href}
@@ -75,7 +74,7 @@ export default function Pricing() {
                   'mt-6 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
                 )}
               >
-                Buy plan
+                Buy now
               </a>
               <ul role="list" className="mt-8 space-y-3 text-sm leading-6 text-gray-600 xl:mt-10">
                 {tier.features.map((feature) => (
