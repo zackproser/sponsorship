@@ -7,6 +7,7 @@ import { CardTitle, CardDescription, CardHeader, CardContent, Card } from "@/com
 import { Button } from "@/components/ui/button"
 import FollowerStats from '@/components/followers'
 import Pricing from '@/components/pricing'
+import MyContent from '@/components/my-content'
 
 import speech from '@/images/zack-speaking.webp'
 import myContent from '@/images/my-content.webp'
@@ -47,8 +48,12 @@ export default function Component() {
                     cloud-native development, infrastructure as code, developer tooling and machine learning.
                   </p>
                   <p className="max-w-[600px] mx-auto text-gray-500 md:text-xl dark:text-gray-400">
+                    My readers love my work because it is authentic and informed through hard-won through experience
+                    working on core engineering teams at some of the world&apos;s most successful startups for the past 12 years.
+                  </p>
+                  <p className="max-w-[600px] mx-auto text-gray-500 md:text-xl dark:text-gray-400">
                     I have a growing audience across multiple platforms and I&apos;m available on a limited basis for 
-                    sponsorship, advisory work, consulting or development work so long as it does not conflict with my 
+                    sponsorship, advisory work, consulting or development so long as it does not conflict with my 
                     primary role at Pinecone.
                   </p>
                   <div className="flex justify-center pt-4 mt-4">
@@ -63,64 +68,10 @@ export default function Component() {
               </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
           <div className="container px-4 md:px-6">
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-[#0070f3]">My content</h2>
-                <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  I create engaging content across media including: video, articles, code. Quick demos to deep analyses and UX or DevEx reviews. 
-                  My readers love my work because it is authentic, hard-won through many years of hands on experience, and created by someone who 
-                  has worked in some of the world&apos;s most successful startups for the last 12 years.
-                </p>
-                <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  My development tutorials, infrastructure as code guides, command line tools, web applications and machine learning project walkthroughs, 
-                  analsyses and reviews are used and read by developers, investors, and technologists around the world daily. 
-                </p>
-              </div>
-            </div>
-            <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
-              <Image
-                alt="My content"
-                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
-                height={"310"}
-                src={myContent}
-                width={"550"}
-              />
-              <div className="flex flex-col justify-center space-y-4">
-                <ul className="grid gap-6">
-                  <li>
-                    <div className="grid gap-1">
-                      <h3 className="text-xl font-bold">Cloud-Native Development</h3>
-                      <p className="text-gray-500 dark:text-gray-400">
-                        I share my expertise in building scalable, resilient, and efficient cloud-native
-                        applications using modern tools and frameworks.
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="grid gap-1">
-                      <h3 className="text-xl font-bold">Infrastructure as Code</h3>
-                      <p className="text-gray-500 dark:text-gray-400">
-                        I love to automate infrastructure provisioning and management using tools
-                        like Terraform, Pulumi, and CloudFormation.
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="grid gap-1">
-                      <h3 className="text-xl font-bold">The latest in AI and vector search</h3>
-                      <p className="text-gray-500 dark:text-gray-400">
-                       I&apos;m a Staff Developer Advocate at <Link href={"https://pinecone.io"} className="text-blue-500">Pinecone.io</Link>, where we build the genre-defining cloud-native vector database that provides long-term memory for AI.
-                       I research, create tutorials, do open-source maintenance on machine learning projects and Jupyter notebooks, and build distributed systems that flex Pinecone at scale
-                       I write about  data preprocessing, model training, embeddings, vector databases, semantic search, <Link className="text-blue-500" href="https://pinecone.io/learn/retrieval-augmented-generation">retrieval augmented generation</Link> and productionizing GenAI systems.
-                      </p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
+            <MyContent />
           </div>
+        <section>
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32">
           <div className="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
