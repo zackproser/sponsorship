@@ -60,12 +60,20 @@ export default function Component() {
                    <FollowerStats />
                   </div>
                 </div>
-              <Image 
-                className="mx-auto object-cover aspect-square overflow-hidden rounded-xl object-cover sm:w-full lg:order-last"
-                src={speech} 
-                alt="Me speaking about Gen AI in production at Andreesen Horowitz" 
-              />
-              </div>
+                <div className="relative w-full h-full">
+                  <Image 
+                    className="inset-0 w-full h-full object-cover rounded-xl"
+                    src={speech} 
+                    alt="Me speaking about Gen AI in production at Andreesen Horowitz" 
+                  />
+                  <div className="absolute inset-0 flex items-end justify-center p-4 bg-black bg-opacity-30">
+                    <div className="text-white text-center p-2">
+                      <h2 className="text-lg sm:text-xl md:text-3xl font-bold">Speaking at Andreesen Horowitz</h2>
+                      <p className="text-sm sm:text-md md:text-xl">Discussing Gen AI in production</p>
+                    </div>
+                  </div>
+                </div>
+             </div>
           </div>
         </section>
           <div className="container px-4 md:px-6">
