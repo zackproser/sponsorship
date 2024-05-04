@@ -5,6 +5,8 @@ import pineconeRefArch from '@/images/pinecone-refarch-logo.webp'
 import updatedCodeiumAnalysis from '@/images/updated-codeium-analysis.webp'
 import youTube from '@/images/youtube.webp'
 import rag from '@/images/retrieval-augmented-generation.webp'
+import stages from '@/images/stages.gif'
+import blogging from '@/images/blogging-peacefully.webp'
 
 const posts = [
   {
@@ -43,6 +45,22 @@ const posts = [
       'I researched and wrote Pinecone\'s Retrieval Augmented Generation learning resource' ,
     imageUrl: rag,
     category: { title: 'Research - technical writing', href: '#' },
+  },
+  {
+    id: 5,
+    title: 'Golang: The Bubbletea State Machine Pattern',
+    href: 'https://zackproser.com/blog/bubbletea-state-machine',
+    description: 'I discovered and socialized this design pattern for building ambitious command line interfaces with Go',
+    imageUrl: stages,
+    category: { title: 'Software - design pattern', href: '#' },
+  },
+  {
+    id: 6,
+    title: 'Run your own tech blog',
+    href: 'https://zackproser.com/blog/run-your-own-tech-blog',
+    description: 'A popular blog post that was picked up by The Changelog and several other popular internet outlets for developers',
+    imageUrl: blogging,
+    category: { title: 'Software - lifestyle blog', href: '#' },
   },
 ]
 
