@@ -6,6 +6,7 @@ import { CheckIcon, MailIcon, LinkedinIcon, TwitterIcon, YoutubeIcon, GithubIcon
 import { CardTitle, CardDescription, CardHeader, CardContent, Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import FollowerStats from '@/components/followers'
+import Pricing from '@/components/pricing'
 
 import speech from '@/images/zack-speaking.webp'
 import myContent from '@/images/my-content.webp'
@@ -141,97 +142,13 @@ export default function Component() {
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight text-[#0070f3]">
                 Work with me 
               </h2>
-              <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Partner with me to reach my engaged audience and elevate your brand. Some of the most impactful work I do is provide early reviews and 
-                technical feedback on the DevEx or UX of a product such as an AI-assisted developer tool, new technical service, etc. 
+              <p className="mx-auto max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                Partner with me to reach my engaged audience, elevate your brand and reach a sophisticated group of technologists. 
               </p>
-            </div>
-            <div className="grid w-full max-w-4xl grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              <Card className="flex flex-col">
-                <CardHeader>
-                  <CardTitle className="text-[#0070f3]">Bronze Tier</CardTitle>
-                  <CardDescription>Get your name out there</CardDescription>
-                </CardHeader>
-                <CardContent className="flex flex-col justify-between flex-1">
-                  <ul className="space-y-2">
-                    <li>
-                      <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#0070f3]" />
-                      1 Sponsored Post
-                    </li>
-                    <li>
-                      <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#0070f3]" />
-                      Mention in 1 Story
-                    </li>
-                    <li>
-                      <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#0070f3]" />
-                      Inclusion in Newsletter
-                    </li>
-                  </ul>
-                  <div className="mt-auto">
-                    <Button className="w-full bg-[#0070f3] hover:bg-[#0070f3]/90 text-gray-50 dark:bg-[#0070f3] dark:text-gray-900 dark:hover:bg-[#0070f3]/90" asChild>
-                      <Link href={'https://buy.stripe.com/bIYfZtaQ24HbdkQaEE'}>$1500</Link>
-                    </Button>
-                  </div>
-                </CardContent>
-              </Card>
-              <Card className="flex flex-col">
-                <CardHeader>
-                  <CardTitle className="text-[#0070f3]">Silver Tier</CardTitle>
-                  <CardDescription>Go deeper with a short series of posts</CardDescription>
-                </CardHeader>
-                <CardContent className="flex flex-col justify-between flex-1">
-                  <ul className="space-y-2">
-                    <li>
-                      <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#0070f3]" />
-                      2 Sponsored Posts
-                    </li>
-                    <li>
-                      <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#0070f3]" />
-                      Mention in 2 Stories
-                    </li>
-                    <li>
-                      <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#0070f3]" />
-                      Inclusion in Newsletter
-                    </li>
-                    <li>
-                      <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#0070f3]" />
-                      Shoutout in 1 Video
-                    </li>
-                  </ul>
-                  <div className="mt-auto">
-                    <Button className="w-full bg-[#0070f3] hover:bg-[#0070f3]/90 text-gray-50 dark:bg-[#0070f3] dark:text-gray-900 dark:hover:bg-[#0070f3]/90" asChild>
-                      <Link href={"https://buy.stripe.com/4gw4gL2jw6PjfsY3cd"}>$2,800</Link>
-                    </Button>
-                  </div>
-                </CardContent>
-              </Card>
-              <Card className="flex flex-col">
-                <CardHeader>
-                  <CardTitle className="text-[#0070f3]">Product review and feedback</CardTitle>
-                  <CardDescription>Ideal for startups in the AI / ML spaces</CardDescription>
-                </CardHeader>
-                <CardContent className="flex flex-col justify-between flex-1">
-                  <ul className="space-y-2">
-                    <li>
-                      <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#0070f3]" />
-                      Detailed analysis of your product or tool&apos;s functionality and user experience. 
-                    </li>
-                    <li>
-                      <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#0070f3]" />
-                      Detailed recordings and transcripts of my experience 
-                    </li>
-                    <li>
-                      <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#0070f3]" />
-                      Discussion, feedback, and advice in follow up meetings with your team 
-                    </li>
-                  </ul>
-                  <div className="mt-auto">
-                    <Button className="w-full bg-[#0070f3] hover:bg-[#0070f3]/90 text-gray-50 dark:bg-[#0070f3] dark:text-gray-900 dark:hover:bg-[#0070f3]/90" asChild>
-                      <Link href={'https://buy.stripe.com/aEU6oTgamgpTbcI8wy'}>$5000</Link>
-                    </Button>
-                  </div>
-                </CardContent>
-              </Card>
+              <p className="mx-auto max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                Some of the most impactful work I do is provide early reviews and technical feedback on the DevEx or UX of a product such as an AI-assisted developer tool, new technical service, etc. 
+              </p>
+              <Pricing />
             </div>
           </div>
         </section>
