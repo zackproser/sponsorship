@@ -100,7 +100,7 @@ export default function MyContent() {
             </article>
           ))}
         </div>
-        <h2 className="mt-8 text-3xl font-bold tracking-tight sm:text-4xl text-[#0070f3]">Looking for more?</h2>
+        <h2 className="mt-12 text-3xl font-bold tracking-tight sm:text-4xl text-[#0070f3]">Looking for more?</h2>
         <p className="mt-2 text-lg leading-8 text-gray-600">
             My <Link href={"https://zackproser.com/blog"}>blog</Link>, <Link href={"https://youtube.com/@zackproser"}>videos</Link>, <Link href={"https://github.com/zackproser"}>GitHub profile</Link>, <Link href={"https://linkedin.com/in/zackproser"}>LinkedIn profile</Link> and <Link href={"https://twitter.com/zackproser"}>Twitter profile</Link> are all public and used daily as resources 
             by software engineers, CTOs, founders, investors and analysts.

@@ -80,7 +80,7 @@ export default function Home() {
                   Where I am coming from
                 </h2>
                 <p className="mx-auto pt-8 text-gray-500 md:text-lg lg:text-xl dark:text-gray-400">
-                  My readers love my work because it is authentic and hard-won through experience working on core 
+                  My readers love my work because it is authentic and hard-won through experience. I have worked on core 
                   engineering teams at some of the world&apos;s most successful startups for the past 12 years.
                 </p>
                 <div className="pt-8">
@@ -102,7 +102,7 @@ export default function Home() {
               <MyContent />
             </div>
           </section>
-          <section className="w-full py-16 md:py-24 lg:py-32 border-t">
+          <section className="w-full py-16 md:py-24 lg:py-32">
             <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
               <div className="space-y-3">
                 <h2 className="text-3xl font-bold tracking-tighter md:text-4xl text-[#0070f3]">

@@ -2,14 +2,13 @@
 
 import React, { useState, useEffect } from 'react';
 
-// Icons import statements
 import { MailIcon, LinkedinIcon, TwitterIcon, YoutubeIcon, GithubIcon } from './icons'; // Ensure this path is correct
 
 const platforms = [
-  { name: 'Newsletter', Icon: MailIcon, followers: 450 },
-  { name: 'LinkedIn', Icon: LinkedinIcon, followers: 750 },
-  { name: 'Twitter', Icon: TwitterIcon, followers: 350 },
-  { name: 'YouTube', Icon: YoutubeIcon, followers: 165 },
+  { name: 'Newsletter', Icon: MailIcon, followers: 480 },
+  { name: 'LinkedIn', Icon: LinkedinIcon, followers: 762 },
+  { name: 'Twitter', Icon: TwitterIcon, followers: 317 },
+  { name: 'YouTube', Icon: YoutubeIcon, followers: 168 },
   { name: 'GitHub', Icon: GithubIcon, followers: 142 },
 ];
 
