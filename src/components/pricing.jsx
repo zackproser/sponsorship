@@ -6,20 +6,16 @@ const tiers = [
     id: 'tier-bronze',
     href: 'https://buy.stripe.com/bIYfZtaQ24HbdkQaEE',
     price: '$1,500',
-    description: 'Ideal for small businesses and startups.',
-    features: ['1 Sponsored Post', 'Mention in 1 Story', 'Inclusion in Newsletter'],
+    features: ['1 review or spotlight blog post', 'Social amplification'],
   },
   {
     name: 'Go deeper',
     id: 'tier-silver',
     href: 'https://buy.stripe.com/4gw4gL2jw6PjfsY3cd',
     price: '$2,800',
-    description: 'Great for growing businesses and e-commerce brands.',
     features: [
-      '2 Sponsored Posts',
-      'Mention in 2 Stories',
-      'Inclusion in Newsletter',
-      'Shoutout in 1 Video',
+      '2 review or spotlight blog posts',
+      'Social amplification'
     ],
   },
   {
@@ -27,7 +23,6 @@ const tiers = [
     id: 'tier-gold',
     href: 'https://buy.stripe.com/aEU6oTgamgpTbcI8wy',
     price: '$5,000',
-    description: 'I am an expert in AI-assisted develeoper tooling',
     features: [
       'Detailed feedback and analysis',
       'Video recordings of my experience',
@@ -35,6 +30,32 @@ const tiers = [
       'Dedicated review blog Post',
     ],
   },
+  {
+    name: 'Coaching or career advice',
+    id: 'tier-coach',
+    href: 'https://buy.stripe.com/aEU6oTgamgpTbcI8wy',
+    price: '$500',
+    features: [
+      'Prep for technical interviews',
+      'Or reach the next level in your career', 
+      'Or pick up a new career...'
+    ],
+  },
+  {
+    name: 'Design or development work',
+    id: 'tier-coach',
+    href: 'https://buy.stripe.com/aEU6oTgamgpTbcI8wy',
+    price: '$500/hr',
+    features: [
+      'System design',
+      'Architecture review', 
+      'Development',
+      'APIs, Infra, Web apps',
+      'Machine learning notebooks...',
+      'HTML5 Games or web apps...'
+    ],
+  },
+
 ];
 
 function classNames(...classes) {
@@ -43,7 +64,7 @@ function classNames(...classes) {
 
 export default function Pricing() {
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="bg-white p-6">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="isolate mx-auto grid max-w-md grid-cols-1 gap-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           {tiers.map((tier) => (
