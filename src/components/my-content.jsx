@@ -13,8 +13,7 @@ const posts = [
     id: 1,
     title: 'Pinecone\'s first production example semantic search system on AWS',
     href: 'https://github.com/pinecone-io/aws-reference-architecture-pulumi',
-    description:
-      'I designed and built Pinecon&apos;s first semantic search production example system using AWS, TypeScript, Docker and Pulumi',
+    description: 'I designed and built Pinecone\'s first semantic search production example system using AWS, TypeScript, Docker and Pulumi',
     imageUrl: pineconeRefArch,
     category: { title: 'Software - distributed system', href: '#' },
   },
