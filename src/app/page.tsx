@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button"
 import FollowerStats from '@/components/followers'
 import Pricing from '@/components/pricing'
 import MyContent from '@/components/my-content'
+import CV from '@/components/CV'
 
 import speech from '@/images/zack-speaking.webp'
 import myContent from '@/images/my-content.webp'
@@ -48,11 +49,7 @@ export default function Home() {
                     I&apos;m a staff developer, open-source maintainer and technical writer specializing in
                     cloud-native development, infrastructure as code, developer tooling and machine learning.
                   </p>
-                  <p className="max-w-[600px] mx-auto text-gray-500 md:text-xl dark:text-gray-400">
-                    My readers love my work because it is authentic and informed through hard-won through experience
-                    working on core engineering teams at some of the world&apos;s most successful startups for the past 12 years.
-                  </p>
-                  <p className="max-w-[600px] mx-auto text-gray-500 md:text-xl dark:text-gray-400">
+                                    <p className="max-w-[600px] mx-auto text-gray-500 md:text-xl dark:text-gray-400">
                     I have a growing audience across multiple platforms and I&apos;m available on a limited basis for 
                     sponsorship, advisory work, consulting or development so long as it does not conflict with my 
                     primary role at Pinecone.
@@ -76,6 +73,20 @@ export default function Home() {
                 </div>
              </div>
           </div>
+        <section>
+          <div className="container p-6 mt-8 md:px-6">
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-[#0070f3]">
+                    Where I&apos;m coming from 
+          </h2>
+          <p className="mx-auto mt-6 text-gray-500 md:text-xl dark:text-gray-400">
+             My readers love my work because it is authentic and hard-won through experience working on core 
+             engineering teams at some of the world&apos;s most successful startups for the past 12 years.
+          </p>
+          <div className="p-6">
+            <CV />
+          </div>
+          </div>
+        </section>
         </section>
           <div className="container px-4 md:px-6">
             <MyContent />
@@ -110,7 +121,7 @@ export default function Home() {
               </div>
           </div>
         </section>
-              </main>
+       </main>
     </div>
   </div>
   )
