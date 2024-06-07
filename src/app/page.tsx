@@ -1,17 +1,12 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
-import { CheckIcon, MailIcon, LinkedinIcon, TwitterIcon, YoutubeIcon, GithubIcon } from '@/components/icons'
-
-import { CardTitle, CardDescription, CardHeader, CardContent, Card } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
 import FollowerStats from '@/components/followers'
 import Pricing from '@/components/pricing'
 import MyContent from '@/components/my-content'
 import CV from '@/components/CV'
 
 import speech from '@/images/zack-speaking.webp'
-import myContent from '@/images/my-content.webp'
 
 export default function Home() {
   return (
@@ -49,8 +44,8 @@ export default function Home() {
                     cloud-native development, infrastructure as code, developer tooling and machine learning.
                   </p>
                   <p className="max-w-[600px] mx-auto text-gray-500 md:text-lg lg:text-xl dark:text-gray-400">
-                    I have a growing audience across multiple platforms and I&apos;m available on a limited basis for 
-                    sponsorship, advisory work, consulting or development so long as it does not conflict with my 
+                    I have a growing audience across multiple platforms and I&apos;m available on a limited basis for
+                    sponsorship, advisory work, consulting or development so long as it does not conflict with my
                     primary role at Pinecone.
                   </p>
                   <div className="flex justify-center pt-6">
@@ -58,10 +53,10 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="relative w-full h-full">
-                  <Image 
+                  <Image
                     className="inset-0 w-full h-full object-cover rounded-xl"
-                    src={speech} 
-                    alt="Me speaking about Gen AI in production at Andreesen Horowitz" 
+                    src={speech}
+                    alt="Me speaking about Gen AI in production at Andreesen Horowitz"
                   />
                   <div className="absolute inset-0 flex items-end justify-center p-4 bg-black bg-opacity-30">
                     <div className="text-white text-center p-2">
@@ -80,7 +75,7 @@ export default function Home() {
                   Where I am coming from
                 </h2>
                 <p className="mx-auto pt-8 text-gray-500 md:text-lg lg:text-xl dark:text-gray-400">
-                  My readers love my work because it is authentic and hard-won through experience. I have worked on core 
+                  My readers love my work because it is authentic and hard-won through experience. I have worked on core
                   engineering teams at some of the world&apos;s most successful startups for the past 12 years.
                 </p>
                 <div className="pt-8">
