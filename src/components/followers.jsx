@@ -1,20 +1,18 @@
 'use client'
 
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 import { MailIcon, LinkedinIcon, TwitterIcon, YoutubeIcon, GithubIcon } from './icons'; // Ensure this path is correct
 
 const platforms = [
-  { name: 'Newsletter', Icon: MailIcon, followers: 525 },
-  { name: 'LinkedIn', Icon: LinkedinIcon, followers: 782 },
-  { name: 'Twitter', Icon: TwitterIcon, followers: 346 },
-  { name: 'YouTube', Icon: YoutubeIcon, followers: 218 },
-  { name: 'GitHub', Icon: GithubIcon, followers: 150 },
+  { name: 'Newsletter', Icon: MailIcon, followers: 800 },
+  { name: 'LinkedIn', Icon: LinkedinIcon, followers: 800 },
+  { name: 'Twitter', Icon: TwitterIcon, followers: 360 },
+  { name: 'YouTube', Icon: YoutubeIcon, followers: 325 },
+  { name: 'GitHub', Icon: GithubIcon, followers: 162 },
 ];
 
 const FollowerStats = () => {
-  const [totalFollowers, setTotalFollowers] = useState(0);
-  const [followerBreakdown, setFollowerBreakdown] = useState({});
 
   return (
     <>
