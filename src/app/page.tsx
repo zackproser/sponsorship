@@ -46,7 +46,7 @@ export default function Home() {
                   <p className="max-w-[600px] mx-auto text-gray-500 md:text-lg lg:text-xl dark:text-gray-400">
                     I have a growing audience across multiple platforms and I&apos;m available on a limited basis for
                     sponsorship, advisory work, consulting or development so long as it does not conflict with my
-                    primary role at Pinecone.
+                    primary role at WorkOS.
                   </p>
                   <div className="flex justify-center pt-6">
                     <FollowerStats />
