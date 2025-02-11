@@ -11,9 +11,9 @@ import blogging from '@/images/blogging-peacefully.webp'
 const posts = [
   {
     id: 1,
-    title: 'Pinecone\'s first production example semantic search system on AWS',
+    title: 'Production-grade semantic search system on AWS',
     href: 'https://github.com/pinecone-io/aws-reference-architecture-pulumi',
-    description: 'I designed and built Pinecone\'s first semantic search production example system using AWS, TypeScript, Docker and Pulumi',
+    description: 'I designed and built a production-ready semantic search reference system using AWS, TypeScript, Docker and Pulumi',
     imageUrl: pineconeRefArch,
     category: { title: 'Software - distributed system', href: '#' },
   },
@@ -38,10 +38,10 @@ const posts = [
   },
   {
     id: 4,
-    title: 'Pinecone\'s Retrieval Augmented Generation article',
+    title: 'Retrieval Augmented Generation deep dive',
     href: 'https://pinecone.io/learn/retrieval-augmented-generation',
     description:
-      'I researched and wrote Pinecone\'s Retrieval Augmented Generation learning resource' ,
+      'I researched and wrote a comprehensive learning resource on Retrieval Augmented Generation',
     imageUrl: rag,
     category: { title: 'Research - technical writing', href: '#' },
   },

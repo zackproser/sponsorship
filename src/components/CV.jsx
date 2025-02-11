@@ -4,13 +4,15 @@ import logoCloudmark from '@/images/cloudmark.png';
 import logoGrunty from '@/images/grunty.png';
 import logoPinecone from '@/images/pinecone-logo.png';
 import logoBrightcontext from '@/images/brightcontext.png';
+import logoWorkOS from '@/images/workos.svg';
 
 const roles = [
-  { id: 1, name: 'Staff Developer Advocate', company: 'Pinecone.io', logo: logoPinecone, years: '2023-Present' },
-  { id: 2, name: 'Tech Lead & Senior Software Engineer', company: 'Gruntwork.io', logo: logoGrunty, years: '2020-2023' },
-  { id: 3, name: 'Senior Software Engineer', company: 'Cloudflare', logo: logoCloudflare, years: '2017-2020' },
-  { id: 4, name: 'Software Engineer', company: 'Cloudmark', logo: logoCloudmark, years: '2015-2017' },
-  { id: 5, name: 'Software Engineer', company: 'BrightContext', logo: logoBrightcontext, years: '2012-2014' },
+  { id: 1, name: 'Developer Education', company: 'WorkOS', logo: logoWorkOS, years: '2024-Present' },
+  { id: 2, name: 'Staff Developer Advocate', company: 'Pinecone.io', logo: logoPinecone, years: '2023-2024' },
+  { id: 3, name: 'Tech Lead & Senior Software Engineer', company: 'Gruntwork.io', logo: logoGrunty, years: '2020-2023' },
+  { id: 4, name: 'Senior Software Engineer', company: 'Cloudflare', logo: logoCloudflare, years: '2017-2020' },
+  { id: 5, name: 'Software Engineer', company: 'Cloudmark', logo: logoCloudmark, years: '2015-2017' },
+  { id: 6, name: 'Software Engineer', company: 'BrightContext', logo: logoBrightcontext, years: '2012-2014' },
 ];
 
 export default function CV() {
